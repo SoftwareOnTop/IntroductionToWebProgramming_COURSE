@@ -1,0 +1,61 @@
+{
+  "query": [
+    {
+      "code": "Alue",
+      "selection": {
+        "filter": "agg:_Kunnat aakkosjärjestyksessä 2024.agg",
+        "values": [
+          "SSS",
+          "KU020",
+          "KU005",
+          "KU009",
+          "KU010",
+          "KU016",
+          "KU018",
+          "KU019",
+          "KU035",
+          "KU043"
+        ]
+      }
+    },
+    {
+      "code": "Pääasiallinen toiminta",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "11"
+        ]
+      }
+    },
+    {
+      "code": "Sukupuoli",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "SSS"
+        ]
+      }
+    },
+    {
+      "code": "Ikä",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "SSS"
+        ]
+      }
+    },
+    {
+      "code": "Vuosi",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "2023"
+        ]
+      }
+    }
+  ],
+  "response": {
+    "format": "json-stat2"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "query": [
+    {
+      "code": "Alue",
+      "selection": {
+        "filter": "agg:_- Kunnat aakkosjärjestyksessä 2025.agg",
+        "values": [
+          "SSS",
+          "KU020",
+          "KU005",
+          "KU009",
+          "KU010",
+          "KU016",
+          "KU018",
+          "KU019",
+          "KU035",
+          "KU043"
+
+
+        ]
+      }
+    },
+    {
+      "code": "Tiedot",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "vaesto"
+        ]
+      }
+    },
+    {
+      "code": "Vuosi",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "2023"
+        ]
+      }
+    }
+  ],
+  "response": {
+    "format": "json-stat2"
+  }
+}
